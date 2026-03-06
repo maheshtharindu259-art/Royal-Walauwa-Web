@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Royal Walauwa | Heritage & Luxury</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+
+    <script src="js/script.js"></script>
+
+    <header class="hero">
+        <video autoplay muted loop id="bg-video">
+            <source src="videos/walauwa_intro.mp4" type="video/mp4">
+        </video>
+        <div class="overlay">
+            <nav>
+                <div class="logo">WALAUWA</div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">The Stay</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hero-text">
+                <h1>The Royal Walauwa</h1>
+                <p>පෞරාණික ගෞරවය සහ නූතන සුඛෝපභෝගී අත්දැකීම</p>
+                <button class="btn">Book Now</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="services">
+        <div class="card">
+            <div class="card-img">
+                <img src="images/g1.jpg" alt="Luxury Stay" style="width:100%; height:100%; object-fit:cover;">
+            </div>
+            <div class="card-body">
+                <h3>Luxury Stay</h3>
+                <p>නවාතැන් පහසුකම් සඳහා වෙන් කරගන්න.</p>
+                <button class="btn" style="padding: 8px 20px; font-size: 14px;">View Rooms</button>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-img">
+                <img src="images/g2.jpg" alt="Events & Shoots" style="width:100%; height:100%; object-fit:cover;">
+            </div>
+            <div class="card-body">
+                <h3>Events & Shoots</h3>
+                <p>ඡායාරූප සහ මංගල උත්සව සඳහා.</p>
+                <button class="btn" style="padding: 8px 20px; font-size: 14px;">Explore Venue</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <h2>Walauwa Heritage Gallery</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="images/g1.jpg" alt="Heritage 1">
+                <div class="gallery-overlay">Traditional Architecture</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/g2.jpg" alt="Heritage 2">
+                <div class="gallery-overlay">Ancient Wood Carvings</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/g3.jpg" alt="Heritage 3">
+                <div class="gallery-overlay">Royal Garden</div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/g4.jpg" alt="Heritage 4">
+                <div class="gallery-overlay">Luxury Suites</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="booking-section" id="contact">
+        <div class="booking-container">
+            <h2>Make a Reservation</h2>
+            <p>ඔබේ දිනය වෙන් කරවා ගැනීමට පහත විස්තර පුරවන්න</p>
+        
+            <form id="booking-form">
+                <div class="input-group">
+                    <input type="text" placeholder="ඔබේ නම (Full Name)" required>
+                    <input type="email" placeholder="විද්‍යුත් තැපෑල (Email)" required>
+                </div>
+            
+                <div class="input-group">
+                    <select required>
+                        <option value="" disabled selected>Booking Type (වර්ගය)</option>
+                        <option value="stay">Luxury Stay (නවාතැන්)</option>
+                        <option value="wedding">Wedding Shoot (මංගල ඡායාරූප)</option>
+                        <option value="event">Commercial Event (වෙනත්)</option>
+                    </select>
+                    <input type="date" required>
+                </div>
+            
+                <textarea rows="5" placeholder="අමතර විස්තර (Message/Special Requests)"></textarea>
+            
+                <button type="submit" class="btn-submit">Submit Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-box">
+                <h3 style="color: #d4af37;">The Royal Walauwa</h3>
+                <p>පෞරාණික උරුමය සුරකිමින්, ඔබට අමතක නොවන අත්දැකීමක් ලබා දෙන්නෙමු.</p>
+            </div>
+            <div class="footer-box">
+                <h3 style="color: #d4af37;">Quick Links</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="#" style="color: #999; text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href="#" style="color: #999; text-decoration: none;">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-box">
+                <h3 style="color: #d4af37;">Contact Us</h3>
+                <p>📍 No 123, Heritage Road, Kandy.</p>
+                <p>📞 +94 77 123 4567</p>
+                <p>✉️ info@royalwalauwa.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom" style="text-align: center; border-top: 1px solid #333; padding-top: 20px; margin-top: 30px; font-size: 14px; color: #666;">
+            &copy; 2024 The Royal Walauwa. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
